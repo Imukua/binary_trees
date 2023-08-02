@@ -20,6 +20,4 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	else if (gramps->left == node->parent)
 		return (gramps->right);
 
-	return (NULL);
-
 }
